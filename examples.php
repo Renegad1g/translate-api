@@ -4,7 +4,7 @@ ini_set("display_errors", 1);
 include_once 'Yandex_Translate.php';
 include_once 'Big_Text_Translate.php';
 
-$translator = new Yandex_Translate();
+$translator = new Yandex_Translate('ключ, полученный тут: api.yandex.ru/key/form.xml?service=trnsl');
 
 //Ниже для экспериментов раскомментируйте нужное
 
